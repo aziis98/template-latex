@@ -8,7 +8,7 @@ This is a basic template for a LaTeX project, uses `latexmk` for rendering and a
 ## Installation
 
 ```bash
-git clone https://github.com/aziis98/template-latex.git
+git clone https://github.com/aziis98/template-latex
 ```
 
 or (I personally prefer) the following
@@ -16,7 +16,7 @@ or (I personally prefer) the following
 ```bash
 cd /path/to/folder 
 git init
-git pull --depth=1 git@github.com:aziis98/template-latex.git
+git pull --depth=1 https://github.com/aziis98/template-latex
 ```
 
 that downloads just the most recent commit (the `--depth=1` option) and leaves the remote origin empty.
