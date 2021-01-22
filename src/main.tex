@@ -1,6 +1,8 @@
-\documentclass[11pt]{article}
+\documentclass[12pt]{article}
 
-% For larger project move preamble to a prelude file
+%
+% For larger project move the preamble to a prelude file
+%
 % \input{prelude.tex}
 
 \usepackage[utf8]{inputenc}
@@ -9,35 +11,47 @@
 \usepackage[T1]{fontenc}
 \usepackage{titlesec}
 
-\usepackage{geometry}
-\geometry{
-  a4paper,
-  hmargin=30mm,
-  vmargin=30mm
-}
+% 
+% Use a custom geometry for the page
+% 
+% \usepackage{geometry}
+% \geometry{
+%   a4paper,
+%   hmargin=30mm,
+%   vmargin=30mm
+% }
 
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{mathtools}
 
+%
 % Adds horizontal rules under "\section" entries
+%
 % \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
 
-\title{Template}
-\author{aziis98}
+\title{The Title}
+\author{The Author}
 \date{Today}
 
 \begin{document}
 
-% Removes initial indentation from paragraphs
-\parskip 1ex
-\setlength{\parindent}{0pt}
+%
+% Removes initial indentation from paragraphs.
+%
+% \parskip 1ex
+% \setlength{\parindent}{0pt}
 
+%
+% Add title, author and date from above.
+%
 \maketitle
 
-% Adds Tables of Contents
-\tableofcontents
-\newpage
+%
+% Adds Tables of Contents and then starts a new page.
+%
+% \tableofcontents
+% \newpage
 
 \section{Test section}
 
