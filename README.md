@@ -29,7 +29,7 @@ All source files should be placed in [`src/`](./src), they are copied to the [`.
 
 To be organized I've recently started using this [Makefile](./Makefile) to manage LaTeX projects, so just use `make`, `make all` or `make main.pdf` to build the project and generate the output PDF.
 
-### Live reload with entr
+### Live reload with entr (just `./watch` now)
 
 If you have `entr` installed you can also have "live reload" on save with
 
