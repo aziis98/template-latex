@@ -1,40 +1,22 @@
-\documentclass[12pt]{article}
+\documentclass[11pt]{article}
 
 %
 % For larger project move the preamble to a prelude file
 %
-% \input{prelude.tex}
+\input{prelude.tex}
 
-\usepackage[utf8]{inputenc}
-\usepackage[italian]{babel}
-
-\usepackage[T1]{fontenc}
-\usepackage{titlesec}
-
-% 
-% Use a custom geometry for the page
-% 
-% \usepackage{geometry}
-% \geometry{
-%   a4paper,
-%   hmargin=30mm,
-%   vmargin=30mm
-% }
-
-\usepackage{amsmath}
-\usepackage{amssymb}
-\usepackage{mathtools}
-
-%
-% Adds horizontal rules under "\section" entries
-%
-% \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
-
-\title{The Title}
-\author{The Author}
-\date{Today}
+\newcommand{\newpagecolumn}{\vfill\null\columnbreak}
 
 \begin{document}
+
+\parskip 1ex
+\setlength{\parindent}{0pt}
+
+\begin{multicols*}{2}
+\section*{\huge Formulario di Logica}
+\hrule
+
+This document is in A4 and has a two column layout.
 
 %
 % Removes initial indentation from paragraphs.
@@ -43,17 +25,12 @@
 % \setlength{\parindent}{0pt}
 
 %
-% Add title, author and date from above.
-%
-\maketitle
-
-%
 % Adds Tables of Contents and then starts a new page.
 %
 % \tableofcontents
 % \newpage
 
-\section{Test section}
+\section*{Test section}
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -63,7 +40,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip.
 
-\subsection{Test subsection}
+\subsection*{Test subsection}
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -73,7 +50,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip.
 
-\subsection{Test subsection}
+\subsection*{Test subsection}
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -83,7 +60,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip.
 
-\section{Test section}
+\section*{Test section}
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -93,7 +70,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip.
 
-\subsection{Test subsection}
+\subsection*{Test subsection}
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -103,7 +80,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip.
 
-\subsection{Test subsection}
+\subsection*{Test subsection}
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -112,5 +89,11 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip.
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip.
+
+% \newpage
+
+% \
+
+\end{multicols*}
 
 \end{document}

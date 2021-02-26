@@ -1,0 +1,52 @@
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+
+\usepackage[T1]{fontenc}
+\usepackage{titlesec}
+
+% 
+% Use a custom geometry for the page
+% 
+\usepackage{geometry}
+\geometry{
+  a4paper,
+  hmargin=7mm,
+  vmargin=10mm
+}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{mathrsfs}
+
+\usepackage{array}
+\usepackage{multicol}
+
+\usepackage{tabularx}
+
+\usepackage{lipsum}
+\usepackage{wrapfig}
+
+\usepackage{enumitem}
+
+% Custom settings for compact lists
+\setlist{leftmargin=1.25em}
+\setitemize{noitemsep, topsep=0pt, parsep=0pt, partopsep=0pt}
+\def\labelitemi{$\bullet$}
+\def\labelitemii{$\circ$}
+\def\labelitemiii{$\diamond$}
+
+\setlist[enumerate]{leftmargin=1.5em, noitemsep, topsep=0pt, parsep=0pt, partopsep=0pt}
+\setlist[enumerate,1]{label={\roman*)}}
+
+%
+% Adds horizontal rules under "\section" entries
+%
+% \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+
+\title{The Title}
+\author{The Author}
+\date{Today}
+
+\pagestyle{empty}
+
